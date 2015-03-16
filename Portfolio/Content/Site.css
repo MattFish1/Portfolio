@@ -1,0 +1,330 @@
+﻿html{
+    height:100%;
+}
+
+@font-face {
+    font-family: Proxima-Nova;
+    src: url(fonts/proxima-nova.woff);
+    font-style: normal;
+    font-weight: normal;
+  }
+@font-face{
+    font-family: Din-Rounded;
+    src: url(fonts/din-rounded.woff)
+}
+body {
+    font-size: 1.2em;
+    font-family: Din-Rounded;
+    color:black;
+    font-weight:bold;
+    background-color: white;
+    margin: 0px;
+    height:100%;
+   
+}
+
+header {
+    display: block;
+    color:white !important;
+    background-color:#28CA80 !important;
+    text-shadow:none !important;
+    /*position: fixed;*/
+    width:100%;
+    top: 0px;
+    font-weight: normal !important;
+    
+}
+
+/*Sticky Footer*/
+#wrap {min-height: 100%;}
+
+#main {overflow:auto;
+       margin-left:50px;
+	padding-bottom: 180px;}  /* must be same height as the footer */
+
+footer {
+    position: relative;
+	margin-top: -50px; /* negative value of footer height */
+	height: 50px;
+    color:white;
+	clear:both;
+    background-size: cover;
+    background-color:black;
+} 
+
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
+
+/*Element Styles*/
+h1{
+    font-weight:normal !important;
+}
+a{
+    text-decoration: none;
+    color:white!important;
+}
+a:-webkit-any-link{
+text-decoration:none !important;
+color:none !important;
+color:none !important;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/* Added Style Classes*/
+/*Home Page*/
+.homeImg{
+    margin-left:350px;
+    width:800px;
+    height:500px;
+}
+.homeNext{
+    cursor:pointer;
+    display:block;
+}
+.homeContainer{
+    display:inline-block;
+  
+}
+.homeImgContainer {
+   padding: 0px;
+    margin-right:50px;
+}
+.homeColumContainer{
+    margin-left:65px;
+}
+.homeColum1{
+     border: black 3px;
+    background-color: grey;
+    padding: 0px;
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    text-shadow: none;
+}
+.homeColum2{
+     border: black 3px;
+    background-color: grey;
+    padding: 0px;
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    text-shadow: none;
+}
+.homeColum3{
+    border: black 3px;
+    background-color: grey;
+    padding: 0px;
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    text-shadow: none;
+}
+/*Work Page*/
+.workBackground{
+    width:100%;
+    height:100%; 
+}
+.workContainer{
+   margin-left:140px;
+}
+.workDivider{
+    display:block;
+    margin:25px;
+}
+.csTitle{
+    margin-left:487px;
+    display:inline-block;
+}
+.bsTitle{
+    display:inline-block;
+    margin-left:17px;
+}
+.hmTitle{
+    margin-left: 555px;
+    display: inline-block;
+    margin-right: 400px;
+}
+.pkTitle{
+    display:inline-block;
+    margin-left:17px;
+}
+
+/*Shared*/
+h1{
+    font-size:50px;
+}
+.nav-button{
+    cursor:pointer;
+}
+
+.hide{
+    display: none !important;
+}
+.active{
+    display:inline-block;
+    text-decoration:underline;
+}
+.button{
+    margin-bottom:30px;
+    text-shadow:none;
+    box-shadow: 3px 3px 2px grey;
+    width: 95px;
+    height: 25px;
+    color:purple !important;
+    background-color:grey;
+    border: solid black 3px;  
+    text-decoration:none !important;
+    display:inline-block;
+    cursor:pointer;
+}
+.button:hover{
+    transition:all ease-in-out .4s;
+    box-shadow: 0px 0px 15px black;
+    border-radius:5px;
+}
+.siteBackground{
+
+}
+.divider{
+    margin:80px;
+}
+
+/* Header*/
+#normalMenu{
+    margin-left:50px;
+    position: fixed;
+    color:white !important;
+    display:none;
+}
+
+#normalHeader{
+    position:fixed;
+    top:0px;
+    /*background-image: url(Pictures/mountain_at_night-wallpaper-1280x768crop2.jpg);*/
+    background-color:grey;
+    width:100%;
+    height:160px;
+}
+
+#parallaxName{
+    margin-bottom:-20px;
+}
+
+/*Header Parallax*/
+#parallaxMenu{
+    margin-left:50px;
+    position: fixed;
+    color:white !important;
+    
+}
+
+#parallaxHeader{
+      top:0px;
+      height: 400px;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-image: url(/Content/Pictures/teddy_bear-wallpaper-960x600.jpg); /*Pictures/mountain_at_night-wallpaper-1280x768crop2.jpg);*/
+}
+
+
+/* Footer */
+.footerNav{
+    vertical-align:top;
+    float:right;
+}
+
+#copyright{
+    float:left;
+}
+
+/*Nav Menu*/
+.active-nav{
+    color: turquoise !important
+}
+
+/*Forms*/
+.messageBox{
+    height: 100px;
+    width: 300px;
+}
+
+#sendButton{
+    border: 2px solid black;
+    width:50px;
+    padding-left:5px;
+    cursor:pointer;
+}
+
+/*About Page*/
+
+
+/*Contact Page*/
+#giveMeACall{
+    display:inline;
+ 
+}
+
+#messageCollum{
+    display:inline;
+    float:left;
+    margin-top:-26px;
+}
+
+

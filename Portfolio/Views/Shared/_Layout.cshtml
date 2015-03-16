@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    
+    
+</head>
+
+<body class="siteBackground" ng-app="app">
+   
+    <div id="parallaxHeader">
+        
+        <div id="parallaxMenu" class="parallaxMenu">
+            <h1 id="parallaxName"><a href="#/about">CHRISTOPHER FISHER</a></h1>
+            <h2>Fullstack Web Developer</h2>
+            <div></div>
+           
+            <a href="#/about" class="about-button nav-button">
+                About Me
+            </a>
+            &nbsp; &nbsp;
+            <a href="#/work" class="work-button nav-button">
+                Work 
+            </a>
+            &nbsp; &nbsp;
+            <a href="#/projects" class="projects-button nav-button">
+                Projects
+            </a>
+            &nbsp; &nbsp;
+            <a href="#/contact" class="contact-button nav-button">
+                Contact
+            </a>
+        </div>    
+    </div>
+
+    <div id="normalHeader">
+        <div id="normalMenu">
+            <a href="#/about"><h2>CHRISTOPHER FISHER, Fullstack Web Developer</h2></a>
+
+       
+            <a href="#/about" class="about-button nav-button">
+                About Me
+            </a>
+            &nbsp; &nbsp;
+            <a href="#/work"class="work-button nav-button">
+                Work 
+            </a>
+            &nbsp; &nbsp;
+            <a href="#/projects" class="projects-button nav-button">
+                Projects
+            </a>
+            &nbsp; &nbsp;
+            <a href="#/contact" class="contact-button nav-button">
+                Contact
+            </a>
+        </div>
+    </div>
+
+    <div id="wrap">
+
+        <div id="main">
+            @RenderBody()
+            
+        </div>
+
+    </div>
+    
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+    <!--Script -->
+    <script src="~/Scripts/Main.js"></script>
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/angular-route.min.js"></script>
+    <script src="~/Scripts/Angular/app.js"></script>
+    <script src="~/Scripts/Angular/controllers.js"></script>
+   
+    <footer>
+        
+        <div id="copyright">&nbsp; &nbsp; Copyright 2015 Christopher Fisher </div>
+       
+    </footer>
+</body>
+    
+    
+</html>

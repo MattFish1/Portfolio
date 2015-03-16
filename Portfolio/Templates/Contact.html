@@ -1,0 +1,27 @@
+﻿<h1 id="contactTitle">Contact</h1>
+<div id="messageCollum">
+
+    <h2 ng-bind="sendMessage"></h2>
+
+    <form id="contactForm" action="/Home/ContactForm" method="post">
+    <p>Name:</p>
+        <input ng-model="Name" type="text" />
+    &nbsp;
+    <p>Email:</p>
+        <input ng-model="Email"  type="email" />
+    &nbsp;
+    <p>Number (optional):</p>
+        <input ng-model="Number"  type="text" />
+    &nbsp;
+    <p>Message:</p>
+        <textarea ng-model="Message"  type="text" class="messageBox" />
+    &nbsp; &nbsp; &nbsp;
+    <p id="sendButton">Send</p>
+    </form>
+ </div>
+
+<div id="giveMeCall">
+    <h2 ng-bind="giveCall"></h2>
+    
+</div>
+
