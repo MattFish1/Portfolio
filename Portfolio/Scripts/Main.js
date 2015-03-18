@@ -12,8 +12,8 @@
             {
                 //$('header').removeClass('parallaxHeader').addClass('normalHeader');
                 $('#parallaxMenu').hide();
-                $('#normalHeader').show();
-                $('#normalMenu').show();
+                $('#normalHeader').fadeIn();
+                $('#normalMenu').fadeIn();
             }
             else {
                 $('#parallaxMenu').show();
