@@ -8,7 +8,7 @@
         //Change header function
         $(window).scroll(function () {
 
-            if($(window).scrollTop() > 235)
+            if($(window).scrollTop() > 225)
             {
                 //$('header').removeClass('parallaxHeader').addClass('normalHeader');
                 $('#parallaxMenu').hide();
