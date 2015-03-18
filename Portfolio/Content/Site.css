@@ -4,13 +4,13 @@
 
 @font-face {
     font-family: Proxima-Nova;
-    src: url(fonts/proxima-nova.woff);
+    src: url(/Content/fonts/proxima-nova.woff);
     font-style: normal;
     font-weight: normal;
   }
 @font-face{
     font-family: Din-Rounded;
-    src: url(fonts/din-rounded.woff);
+    src: url(/Content/fonts/din-rounded.woff);
 }
 body {
     font-size: 1.2em;
