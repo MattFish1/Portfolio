@@ -35,6 +35,9 @@ header {
     
 }
 
+p {
+	font-weight: normal;
+}
 /*Sticky Footer*/
 #wrap {min-height: 100%;}
 
