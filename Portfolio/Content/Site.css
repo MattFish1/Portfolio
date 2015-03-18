@@ -10,7 +10,7 @@
   }
 @font-face{
     font-family: Din-Rounded;
-    src: url(fonts/din-rounded.woff)
+    src: url(fonts/din-rounded.woff);
 }
 body {
     font-size: 1.2em;
