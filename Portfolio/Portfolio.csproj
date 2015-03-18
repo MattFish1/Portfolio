@@ -214,6 +214,8 @@
     <Content Include="Scripts\angular-route.min.js.map" />
     <Content Include="Content\fonts\proxima-nova.woff" />
     <Content Include="Content\fonts\din-rounded.woff" />
+    <None Include="Properties\PublishProfiles\cfportfolio.pubxml" />
+    <None Include="Properties\PublishProfiles\christopherfisher.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\Angular\angular-route.js" />
