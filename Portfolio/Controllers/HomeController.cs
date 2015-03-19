@@ -13,7 +13,7 @@ namespace Portfolio.Controllers
         //
         // GET: /Home/
 
-        public ActionResult ChristopherFisher()
+        public ActionResult Index()
         {
             return View();
         }
