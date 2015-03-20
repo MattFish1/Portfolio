@@ -12,7 +12,7 @@
             controller: 'WorkController'
         })
         .when('/freelance',{
-            templateUrl: 'Templates/Freelance.html',
+            templateUrl: 'Templates/Home.html',
             controller: 'FreelanceController'
         })
         .when('/projects', {
