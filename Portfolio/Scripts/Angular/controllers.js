@@ -31,7 +31,7 @@ appControllers.controller('WorkController', ['$scope', '$location', '$anchorScro
         
     }]);
 
-appControllers('FreelanceController', ['$scope', '$location', '$anchorScroll', '$routeParams',
+appControllers.controller('FreelanceController', ['$scope', '$location', '$anchorScroll', '$routeParams',
     function ($scope, $location, $anchorScroll, $routeParams) {
         $('.about-button').removeClass('active-nav');
         $('.work-button').removeClass('active-nav');
