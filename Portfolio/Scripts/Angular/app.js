@@ -11,6 +11,10 @@
             templateUrl: '/Templates/Work.html',
             controller: 'WorkController'
         })
+        .when('/freelance',{
+            templateUrl: 'Templates/Freelance.html',
+            controller: 'FreelanceController'
+        })
         .when('/projects', {
             templateUrl: '/Templates/Projects.html',
             controller: 'ProjectsController'
