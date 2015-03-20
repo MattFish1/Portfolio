@@ -25,8 +25,15 @@ appControllers.controller('WorkController', ['$scope', '$location', '$anchorScro
     $('.work-button').addClass('active-nav');
     $('.contact-button').removeClass('active-nav');
     $('.projects-button').removeClass('active-nav');
-}]);
 
+        
+    }]);
+
+appContollers.controller('FreelanceController', ['$scope', '$location', '$anchorScroll', '$routeParams',
+    function ($scope, $location, $anchorScroll, $routeParams) {
+        
+    }]);
+    
 appControllers.controller('ContactController', ['$scope', '$location', '$anchorScroll', '$routeParams',
     function ($scope, $location, $anchorScroll, $routeParams) {
 
