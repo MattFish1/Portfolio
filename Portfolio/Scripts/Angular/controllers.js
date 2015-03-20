@@ -3,10 +3,11 @@
 appControllers.controller('AboutController', ['$scope', '$location', '$anchorScroll', '$routeParams',
     function ($scope, $location, $anchorScroll, $routeParams) {
 
-        $('.about-button').addClass('active-nav');
+        $scope.about-button-classes = 'active-nav';
         $('.work-button').removeClass('active-nav');
         $('.contact-button').removeClass('active-nav');
         $('.projects-button').removeClass('active-nav');
+        $('.freelance-button').removeClass('active-nav');
         
 }]);
 
