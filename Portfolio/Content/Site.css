@@ -1,4 +1,4 @@
-﻿html{
+html{
     height:100%;
 }
 
@@ -14,7 +14,7 @@
 }
 body {
     font-size: 1.2em;
-    font-family: Din-Rounded;
+    font-family: Times New Roman;
     color:black;
     font-weight:bold;
     background-color: white;
@@ -248,7 +248,7 @@ h1{
 }
 
 /* Header*/
-#menu{
+#normalMenu{
     margin-left:50px;
     position: fixed;
     color:white !important;
@@ -269,7 +269,7 @@ h1{
 }
 
 /*Header Parallax*/
-#parallaxTitle{
+#parallaxMenu{
     margin-left:50px;
     position: fixed;
     color:white !important;
