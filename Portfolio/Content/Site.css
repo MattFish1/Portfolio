@@ -248,14 +248,14 @@ h1{
 }
 
 /* Header*/
-#normalMenu{
+.normalMenu{
     margin-left:50px;
     position: fixed;
     color:white !important;
     display:none;
 }
 
-#normalHeader{
+.normalHeader{
     position:fixed;
     top:0px;
     /*background-image: url(Pictures/mountain_at_night-wallpaper-1280x768crop2.jpg);*/
@@ -264,12 +264,10 @@ h1{
     height:160px;
 }
 
-#parallaxName{
-    margin-bottom:-20px;
-}
+
 
 /*Header Parallax*/
-#parallaxMenu{
+#parallaxTitle{
     margin-left:50px;
     position: fixed;
     color:white !important;
