@@ -11,7 +11,7 @@
             if($(window).scrollTop() > 225)
             {
                 //$('header').removeClass('parallaxHeader').addClass('normalHeader');
-                $('#parallaxMenu').hide();
+                $('#parallaxTitle').hide();
                 $('#normalHeader').fadeIn();
                 $('#normalMenu').fadeIn();
             }
