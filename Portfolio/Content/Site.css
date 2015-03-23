@@ -289,7 +289,11 @@ h1{
       background-image: url(/Content/Pictures/teddy_bear-wallpaper-960x600.jpg); /*Pictures/mountain_at_night-wallpaper-1280x768crop2.jpg);*/
 }
 
-
+#parallaxMenu{
+	height: 50px;
+	padding-top: 10px;
+	background-color:black;
+}
 /* Footer */
 .footerNav{
     vertical-align:top;
