@@ -17,6 +17,7 @@
                 $('#normalMenu').fadeIn();
             }
             else {
+                $('#parallaxTitle').show();
                 $('#parallaxMenu').show();
                 $('#normalHeader').hide();
                 $('#normalMenu').hide();
