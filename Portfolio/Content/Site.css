@@ -280,9 +280,9 @@ h1{
 }
 
 #parallaxHeader{
+      background-position: 0% 170%; 	
       top:0px;
       height: 400px;
-      background-position: center bottom;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
@@ -293,6 +293,7 @@ h1{
 	height: 50px;
 	padding-top: 10px;
 	background-color:black;
+	padding-left:50px;
 }
 /* Footer */
 .footerNav{
