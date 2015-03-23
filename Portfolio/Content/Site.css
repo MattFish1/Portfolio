@@ -248,7 +248,7 @@ h1{
 }
 
 /* Header*/
-#normalMenu{
+#menu{
     margin-left:50px;
     position: fixed;
     color:white !important;
@@ -269,7 +269,7 @@ h1{
 }
 
 /*Header Parallax*/
-#parallaxMenu{
+#parallaxTitle{
     margin-left:50px;
     position: fixed;
     color:white !important;
