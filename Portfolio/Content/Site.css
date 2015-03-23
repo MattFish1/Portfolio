@@ -251,7 +251,7 @@ h1{
 #menu{
 	background-color: black;
 }
-.normalMenu{
+#normalMenu{
     margin-left:50px;
     position: fixed;
     color:white !important;
@@ -259,7 +259,7 @@ h1{
 }
 
 #normalHeader{
-	/*
+	
     position:fixed;
     width:100%;
     height:160px;
