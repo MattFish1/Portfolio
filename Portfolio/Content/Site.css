@@ -248,6 +248,9 @@ h1{
 }
 
 /* Header*/
+#menu{
+	background-color: black;
+}
 .normalMenu{
     margin-left:50px;
     position: fixed;
