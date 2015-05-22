@@ -1,10 +1,10 @@
-﻿html{
+html{
     height:100%;
 }
 
 @font-face {
     font-family: Proxima-Nova;
-    src: url(fonts/proxima-nova.woff);
+    src: url(/Content/fonts/proxima-nova.woff);
     font-style: normal;
     font-weight: normal;
   }
@@ -35,6 +35,9 @@ header {
     
 }
 
+p {
+	font-weight: normal;
+}
 /*Sticky Footer*/
 #wrap {min-height: 100%;}
 
@@ -245,6 +248,9 @@ h1{
 }
 
 /* Header*/
+#menu{
+	background-color: black;
+}
 #normalMenu{
     margin-left:50px;
     position: fixed;
@@ -253,20 +259,20 @@ h1{
 }
 
 #normalHeader{
+	
     position:fixed;
-    top:0px;
-    /*background-image: url(Pictures/mountain_at_night-wallpaper-1280x768crop2.jpg);*/
-    background-color:grey;
     width:100%;
     height:160px;
+    top:0px;
+    /*background-image: url(Pictures/mountain_at_night-wallpaper-1280x768crop2.jpg);*/
+    background-color:black;
+    
 }
 
-#parallaxName{
-    margin-bottom:-20px;
-}
+
 
 /*Header Parallax*/
-#parallaxMenu{
+#parallaxTitle{
     margin-left:50px;
     position: fixed;
     color:white !important;
@@ -274,9 +280,13 @@ h1{
 }
 
 #parallaxHeader{
+      background-position: 0% 170%; 	
       top:0px;
       height: 400px;
+<<<<<<< HEAD
       /*background-position: 50% 50%;*/
+=======
+>>>>>>> origin/master
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
@@ -284,7 +294,12 @@ h1{
       background-position: center;
 }
 
-
+#parallaxMenu{
+	height: 50px;
+	padding-top: 10px;
+	background-color:black;
+	padding-left:50px;
+}
 /* Footer */
 .footerNav{
     vertical-align:top;

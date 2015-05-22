@@ -7,6 +7,7 @@ appControllers.controller('AboutController', ['$scope', '$location', '$anchorScr
         $('.work-button').removeClass('active-nav');
         $('.contact-button').removeClass('active-nav');
         $('.projects-button').removeClass('active-nav');
+        $('.freelance-button').removeClass('active-nav');
         
 }]);
 
@@ -16,6 +17,7 @@ appControllers.controller('ProjectsController', ['$scope', '$location', '$anchor
         $('.work-button').removeClass('active-nav');
         $('.contact-button').removeClass('active-nav');
         $('.projects-button').addClass('active-nav');
+        $('.freelance-button').removeClass('active-nav');
 }]);
 
 appControllers.controller('WorkController', ['$scope', '$location', '$anchorScroll', '$routeParams',
@@ -24,8 +26,20 @@ appControllers.controller('WorkController', ['$scope', '$location', '$anchorScro
     $('.work-button').addClass('active-nav');
     $('.contact-button').removeClass('active-nav');
     $('.projects-button').removeClass('active-nav');
-}]);
+    $('.freelance-button').removeClass('active-nav');
 
+        
+    }]);
+
+appControllers.controller('FreelanceController', ['$scope', '$location', '$anchorScroll', '$routeParams',
+    function ($scope, $location, $anchorScroll, $routeParams) {
+        $('.about-button').removeClass('active-nav');
+        $('.work-button').removeClass('active-nav');
+        $('.contact-button').removeClass('active-nav');
+        $('.projects-button').removeClass('active-nav');
+        $('.freelance-button').addClass('active-nav');
+    }]);
+    
 appControllers.controller('ContactController', ['$scope', '$location', '$anchorScroll', '$routeParams',
     function ($scope, $location, $anchorScroll, $routeParams) {
 
@@ -33,6 +47,7 @@ appControllers.controller('ContactController', ['$scope', '$location', '$anchorS
     $('.work-button').removeClass('active-nav');
     $('.contact-button').addClass('active-nav');
     $('.projects-button').removeClass('active-nav');
+    $('.freelance-button').removeClass('active-nav');
     //Sent message
     $scope.show = false;
     $scope.sendMessage = "Send Me a Message";

@@ -24,9 +24,8 @@ namespace Portfolio.Controllers
           
             try
             {
-                SmtpClient mailClient = new SmtpClient("smtp.sendgrid.net", 587);
-
-                mailClient.Credentials = new System.Net.NetworkCredential("Matt_Fish", "Uzeke1911");
+                SmtpClient client = new SmtpClient("mail.dustinkraft.com", 587);
+                client.Credentials = new System.Net.NetworkCredential("postmaster@dustinkraft.com", "techIsFun1"
 
 
                 //Create message
