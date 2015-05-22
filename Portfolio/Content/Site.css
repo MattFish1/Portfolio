@@ -10,7 +10,7 @@
   }
 @font-face{
     font-family: Din-Rounded;
-    src: url(fonts/din-rounded.woff)
+    src: url(/Content/fonts/din-rounded.woff);
 }
 body {
     font-size: 1.2em;
@@ -276,11 +276,12 @@ h1{
 #parallaxHeader{
       top:0px;
       height: 400px;
-      background-position: 50% 50%;
+      /*background-position: 50% 50%;*/
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
       background-image: url(/Content/Pictures/teddy_bear-wallpaper-960x600.jpg); /*Pictures/mountain_at_night-wallpaper-1280x768crop2.jpg);*/
+      background-position: center;
 }
 
 
